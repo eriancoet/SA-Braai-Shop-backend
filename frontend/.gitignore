@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-backend/.env
-node_modules/
-frontend/node_modules/
-=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -16,10 +11,6 @@ frontend/node_modules/
 # production
 /build
 
-
-# backend/.gitignore
-.env
-
 # misc
 .DS_Store
 .env.local
@@ -30,4 +21,3 @@ frontend/node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> deec6b6 (Initial commit)
