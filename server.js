@@ -25,7 +25,7 @@ const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-app.use(cors({ origin: process.env.CLIENT_URL || "http://localhost:3000", credentials: true }));
+app.use(cors({ origin: process.env.CLIENT_URL || "http://localhost:3001", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 app.use(session({ secret: process.env.SESSION_SECRET || "secret", resave: false, saveUninitialized: false }));
